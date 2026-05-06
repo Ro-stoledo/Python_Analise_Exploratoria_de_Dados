@@ -1,0 +1,28 @@
+Regras de Associação e Market Basket Analysis
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name Potfolio_RST python=3.13
+
+# Ative o ambiente:
+
+conda activate Potfolio_RST
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r 00_Req_portfolio.txt 
+
+# Execute o jupyter notebook
+
+jupyter notebook
+
+# Acesse o jupyter pelo seu navegador padrão.
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name Potfolio_RST --all
+
+
+
